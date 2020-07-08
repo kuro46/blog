@@ -1,0 +1,5 @@
+baseURL = "https://blog.shirokuro.dev/"
+languageCode = "ja-jp"
+title = "blog.shirokuro.dev"
+theme="ananke"
+publishDir="docs"

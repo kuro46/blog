@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog.shirokuro.dev</title>
+    <link>https://blog.shirokuro.dev/</link>
+    <description>Recent content on blog.shirokuro.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 08 Jul 2020 15:21:59 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.shirokuro.dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://blog.shirokuro.dev/posts/my-first-post/</link>
+      <pubDate>Wed, 08 Jul 2020 15:21:59 +0900</pubDate>
+      
+      <guid>https://blog.shirokuro.dev/posts/my-first-post/</guid>
+      <description>Hello!</description>
+    </item>
+    
+  </channel>
+</rss>
