@@ -5,7 +5,7 @@
     <link>https://blog.shirokuro.dev/</link>
     <description>Recent content on blog.shirokuro.dev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Wed, 08 Jul 2020 20:23:48 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.shirokuro.dev/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +17,7 @@
       <pubDate>Wed, 08 Jul 2020 20:23:48 +0900</pubDate>
       
       <guid>https://blog.shirokuro.dev/posts/screen-on-tmux/</guid>
-      <description>tmuxでprefixをC-aとかに設定してるとtmux上のssh上のscreenセッションを操作できない
-C-a jでtmuxセッション内にprefixキーを送れるみたいなので、これを使うといいっぽい。
-(コマンド的にはsend-prefixがそれみたい
-試してないけど、screenでの操作を継承してるらしい)</description>
+      <description>&lt;p&gt;tmux上でscreenを起動中、tmux(&lt;code&gt;C-a&lt;/code&gt;をprefixキーにしてある)が&lt;code&gt;C-a&lt;/code&gt;を吸ってしまってscreenセッションを操作できず困ったのでメモ。&lt;/p&gt;</description>
     </item>
     
     <item>

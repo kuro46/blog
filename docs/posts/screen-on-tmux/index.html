@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja-jp">
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -27,31 +27,22 @@
     
     
     <meta property="og:title" content="tmux内でscreenを操作したい" />
-<meta property="og:description" content="tmuxでprefixをC-aとかに設定してるとtmux上のssh上のscreenセッションを操作できない
-C-a jでtmuxセッション内にprefixキーを送れるみたいなので、これを使うといいっぽい。
-(コマンド的にはsend-prefixがそれみたい
-試してないけど、screenでの操作を継承してるらしい)" />
+<meta property="og:description" content="tmux上でscreenを起動中、tmux(C-aをprefixキーにしてある)がC-aを吸ってしまってscreenセッションを操作できず困ったのでメモ。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.shirokuro.dev/posts/screen-on-tmux/" />
 <meta property="article:published_time" content="2020-07-08T20:23:48+09:00" />
 <meta property="article:modified_time" content="2020-07-08T20:23:48+09:00" />
 <meta itemprop="name" content="tmux内でscreenを操作したい">
-<meta itemprop="description" content="tmuxでprefixをC-aとかに設定してるとtmux上のssh上のscreenセッションを操作できない
-C-a jでtmuxセッション内にprefixキーを送れるみたいなので、これを使うといいっぽい。
-(コマンド的にはsend-prefixがそれみたい
-試してないけど、screenでの操作を継承してるらしい)">
+<meta itemprop="description" content="tmux上でscreenを起動中、tmux(C-aをprefixキーにしてある)がC-aを吸ってしまってscreenセッションを操作できず困ったのでメモ。">
 <meta itemprop="datePublished" content="2020-07-08T20:23:48&#43;09:00" />
 <meta itemprop="dateModified" content="2020-07-08T20:23:48&#43;09:00" />
-<meta itemprop="wordCount" content="5">
+<meta itemprop="wordCount" content="210">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="tmux内でscreenを操作したい"/>
-<meta name="twitter:description" content="tmuxでprefixをC-aとかに設定してるとtmux上のssh上のscreenセッションを操作できない
-C-a jでtmuxセッション内にprefixキーを送れるみたいなので、これを使うといいっぽい。
-(コマンド的にはsend-prefixがそれみたい
-試してないけど、screenでの操作を継承してるらしい)"/>
+<meta name="twitter:description" content="tmux上でscreenを起動中、tmux(C-aをprefixキーにしてある)がC-aを吸ってしまってscreenセッションを操作できず困ったのでメモ。"/>
 
 	
   </head>
@@ -147,11 +138,12 @@ C-a jでtmuxセッション内にprefixキーを送れるみたいなので、�
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>tmuxでprefixを<code>C-a</code>とかに設定してるとtmux上のssh上のscreenセッションを操作できない<br>
-<code>C-a j</code>でtmuxセッション内にprefixキーを送れるみたいなので、これを使うといいっぽい。</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>tmux上でscreenを起動中、tmux(<code>C-a</code>をprefixキーにしてある)が<code>C-a</code>を吸ってしまってscreenセッションを操作できず困ったのでメモ。</p>
+<h1 id="prefixキーをtmux内に送る">prefixキーをtmux内に送る</h1>
+<p><code>prefix j</code>で送れる。解決!!<br>
+prefixキーを<code>C-a</code>にしてるなら<code>C-a j d</code>でtmuxの上のscreenセッションからデタッチできる。</p>
 <p>(コマンド的には<code>send-prefix</code>がそれみたい<br>
-試してないけど、screenでの操作を継承してるらしい)</p>
-<ul class="pa0">
+試してないけど、screenでの操作を継承してるらしい)</p><ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
