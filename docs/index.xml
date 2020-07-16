@@ -6,10 +6,19 @@
     <description>Recent content on blog.shirokuro.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Jul 2020 20:23:48 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2020 20:08:55 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.shirokuro.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Discover Browser</title>
+      <link>https://blog.shirokuro.dev/posts/discover-browser/</link>
+      <pubDate>Thu, 09 Jul 2020 20:08:55 +0900</pubDate>
+      
+      <guid>https://blog.shirokuro.dev/posts/discover-browser/</guid>
+      <description>&lt;p&gt;AndroidのDiscoverとかのアプリ内ブラウザを変える&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>tmux内でscreenを操作したい</title>
