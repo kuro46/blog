@@ -12,7 +12,7 @@ HUGO_ENV=production hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 git add .
 
 # Commit changes.
-msg="rebuilding site $(date)"
+msg="rebuilding site $(date --rfc-3339=seconds)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
