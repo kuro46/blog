@@ -6,10 +6,19 @@
     <description>Recent content on blog.shirokuro.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Jul 2020 20:08:55 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 18:22:09 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.shirokuro.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gnomeに接続したBluetoothヘッドホンのプロファイルが変更できなくて困った</title>
+      <link>https://blog.shirokuro.dev/posts/manjaro-gnome-blutooth/</link>
+      <pubDate>Sat, 01 Aug 2020 18:22:09 +0900</pubDate>
+      
+      <guid>https://blog.shirokuro.dev/posts/manjaro-gnome-blutooth/</guid>
+      <description>&lt;p&gt;Gnome(Manjaro Gnome Edition)に接続したBluetoothヘッドホンのプロファイルが変更できなくて困ったのでメモ。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>AndroidのDiscoverとかのアプリ内ブラウザを変える</title>

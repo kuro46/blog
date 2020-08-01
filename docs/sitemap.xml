@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.shirokuro.dev/posts/discover-browser/</loc>
-    <lastmod>2020-07-09T20:08:55+09:00</lastmod>
+    <loc>https://blog.shirokuro.dev/</loc>
+    <lastmod>2020-08-01T18:22:09+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.shirokuro.dev/</loc>
-    <lastmod>2020-07-09T20:08:55+09:00</lastmod>
+    <loc>https://blog.shirokuro.dev/posts/manjaro-gnome-blutooth/</loc>
+    <lastmod>2020-08-01T18:22:09+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.shirokuro.dev/posts/</loc>
+    <lastmod>2020-08-01T18:22:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.shirokuro.dev/posts/discover-browser/</loc>
     <lastmod>2020-07-09T20:08:55+09:00</lastmod>
   </url>
   
